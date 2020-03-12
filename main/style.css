@@ -1,0 +1,143 @@
+.fixed {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  /*background: #292727 !important;*/
+  background: rgba(114,114,114,.9) !important;
+  border-bottom: 2px solid rgba(0,0,0,.4);
+  box-shadow: 0 0 15px black;
+  margin: 0 !important;
+  transition: 1s ease-in;
+}
+
+.blue{
+	color: #007FFF !important;
+	font-weight: bold;
+}
+
+.bgku{
+	/*background: rgba(230, 228, 228,.7);*/
+}
+
+
+#profile{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background: red;
+	background: url('../img/profile.jpg');
+	background-position: center;
+	background-size: cover
+}
+
+.navbar a{
+	/*color: #007FFF !important;*/
+	color: #007FFF !important;
+	font-weight: 500;
+}
+
+header{
+	background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url('../img/bg.gif');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 100vh;	
+}
+
+header #title{
+	margin-top: 120px;	
+	height: 200px;
+}
+
+header #title h2{
+	font-size: 60px;
+}
+
+header #title h2.a{
+	margin-top: 20px !important;
+}
+
+header #title h2 span{
+	color: #007FFF !important;
+}
+
+header #sosmed .fa-instagram,
+header #sosmed .fa-whatsapp,
+header #sosmed .fa-github{
+	font-size: 30px !important;
+	color: #007FFF !important;
+}
+
+main{
+	margin-top: 200px;
+	min-height: 100vh;
+}
+
+main #works h2.title,
+main #link h2.title{
+	transform: rotate(-90deg);
+	font-size: 20px;
+	color: #979797;
+	margin-top: 19px;
+}
+
+main #works .figure-1{
+	width: 500px;
+	height: 500px;
+	background: url('../img/work.png');
+	background-size: cover;
+	background-position: center;
+}
+
+main #works .figure-2{
+	width: 500px;
+	height: 400px;
+	background: url('../img/work.png');
+	background-size: cover;
+	background-position: center;
+}
+
+main #works .figure-3{
+	width: 500px;
+	height: 400px;
+	background: url('../img/work.png');
+	background-size: cover;
+	background-position: center;
+	margin-top: -30px;
+}
+
+main #works .figure-4{
+	width: 500px;
+	height: 500px;
+	background: url('../img/work.png');
+	background-size: cover;
+	background-position: center;	
+	margin-top: -130px;
+}
+
+main #about{
+	min-height: 80vh;
+	margin-top: 190px;
+}
+
+main #about h2{
+	transform: rotate(-90deg);
+	font-size: 20px;
+	color: #979797;
+	margin-top: 19px;
+}
+
+main #link{
+	margin-top: 100px;
+	min-height: 80vh;
+}
+
+main #link h2{
+	margin-top: 0 !important;
+}
+
+main #link .year{
+	color: #979797 !important;
+}
